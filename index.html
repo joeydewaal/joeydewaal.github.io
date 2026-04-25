@@ -1,1 +1,179 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joey de Waal</title>
+<style>
+  body { max-width: 700px; margin: 40px auto; padding: 0 16px; background: white; color: black; }
+
+  .controls { text-align: right; margin-bottom: 16px; }
+  @media print { .no-print { display: none !important; } }
+</style>
+</head>
+<body>
+
+<div class="controls no-print">
+  <a href="#" id="lang-toggle" onclick="toggleLang(); return false;">Nederlands</a>
+  &middot;
+  <a href="#" id="print-btn" href="https://joeydewaal.com/joey-de-waal-cv.pdf">PDF</a>
+</div>
+
+<div id="cv-en">
+  <table style="width:100%;border:none;margin-bottom:4px"><tr>
+    <td style="border:none;padding:0;vertical-align:top">
+      <h1 style="margin:0 0 4px 0">Joey de Waal</h1>
+      <p><em>16 November 2003 &middot; Brussels / Weelde &middot; <span class="em"></span><br>
+      <a href="https://github.com/joeydewaal/">github.com/joeydewaal</a> &middot; <a href="https://www.linkedin.com/in/dewaaljoey/">linkedin.com/in/dewaaljoey</a></em></p>
+    </td>
+    <td style="border:none;padding:0 0 0 16px;vertical-align:top;text-align:right;width:130px">
+      <img src="uploads/cv_pic_cut.jpg" alt="Joey de Waal" style="width:110px;height:110px;object-fit:cover;display:block">
+    </td>
+  </tr></table>
+
+  <hr>
+
+  <h2>Profile</h2>
+  <p>From an early age I have been passionate about computers and ICT. In my spare time I work on personal projects, through which I have built up broad hands-on experience.</p>
+
+  <hr>
+
+  <h2>Experience</h2>
+
+  <h3>Club Sterker &mdash; Software Developer <em>(2023&ndash;present)</em></h3>
+  <ul>
+    <li>Built an in-house ERP solution for managing clients and employees.</li>
+    <li>Stack: Docker, AWS EC2, React TypeScript, Rust, PostgreSQL, Keycloak.</li>
+  </ul>
+
+  <h3>Het Molenslop (Weelde) &mdash; Waiter / Kitchen Assistant <em>(2021&ndash;2023)</em></h3>
+  <ul>
+    <li>Serving tables, washing dishes, kitchen support.</li>
+  </ul>
+
+  <h3>Pluvera &mdash; Student Worker <em>(Summer 2020)</em></h3>
+  <ul>
+    <li>Factory work: packaging, sorting and processing.</li>
+  </ul>
+
+  <h3>ALDI &mdash; Cashier / Shelf Stacker <em>(2018&ndash;2019)</em></h3>
+  <ul>
+    <li>Helping customers at checkout, restocking shelves.</li>
+  </ul>
+
+  <hr>
+
+  <h2>Education</h2>
+  <ul>
+    <li><strong>VUB</strong> &mdash; Master Computer Science <em>(2025&ndash;present)</em></li>
+    <li><strong>AP Hogeschool</strong> &mdash; Bachelor Cloud &amp; Cybersecurity <em>(2022&ndash;2025)</em></li>
+    <li><strong>Thomas More (Geel)</strong> &mdash; Applied Computer Science <em>(2021&ndash;2022)</em></li>
+    <li><strong>Sint-Victor (Turnhout)</strong> &mdash; IT Management (TSO) <em>(2015&ndash;2021)</em></li>
+  </ul>
+
+  <hr>
+
+  <h2>Skills</h2>
+  <p><strong>Programming languages:</strong> C, C++, C#, Java, JavaScript, Python, Rust, TypeScript</p>
+  <p><strong>Frameworks:</strong> Angular, Axum, Express, FastAPI, Flask, React</p>
+  <p><strong>Tools &amp; DevOps:</strong> Ansible, Docker, Git, GitHub, GitHub Actions, GitLab, Jenkins</p>
+  <p><strong>Hardware:</strong> ESP-32, Raspberry Pi</p>
+  <p><strong>Soft skills:</strong> Critical thinking, helpful, persistent, service-oriented, tech enthusiast</p>
+
+  <hr>
+
+  <h2>Languages</h2>
+  <p>Dutch (native), English (fluent), French (basic)</p>
+</div>
+
+<div id="cv-nl" style="display:none">
+  <table style="width:100%;border:none;margin-bottom:4px"><tr>
+    <td style="border:none;padding:0;vertical-align:top">
+      <h1 style="margin:0 0 4px 0">Joey de Waal</h1>
+      <p><em>16 november 2003 &middot; Brussel / Weelde &middot; <span class="em"></span><br>
+      <a href="https://github.com/joeydewaal/">github.com/joeydewaal</a> &middot; <a href="https://www.linkedin.com/in/dewaaljoey/">linkedin.com/in/dewaaljoey</a></em></p>
+    </td>
+    <td style="border:none;padding:0 0 0 16px;vertical-align:top;text-align:right;width:130px">
+      <img src="uploads/cv_pic_cut.jpg" alt="Joey de Waal" style="width:110px;height:110px;object-fit:cover;display:block">
+    </td>
+  </tr></table>
+
+  <hr>
+
+  <h2>Profiel</h2>
+  <p>Van kleins af aan ben ik bezig met computers en ICT. Hierdoor is technologie mijn passie geworden. In mijn vrije tijd ben ik bezig met kleine projecten waardoor ik veel ervaring heb opgedaan.</p>
+
+  <hr>
+
+  <h2>Ervaringen</h2>
+
+  <h3>Club Sterker &mdash; Software Developer <em>(2023&ndash;heden)</em></h3>
+  <ul>
+    <li>Ontwikkeling van een in-house ERP oplossing voor klant- en medewerkerbeheer.</li>
+    <li>Stack: Docker, AWS EC2, React TypeScript, Rust, PostgreSQL, Keycloak.</li>
+  </ul>
+
+  <h3>Het Molenslop (Weelde) &mdash; Bediende / Keukenhulp <em>(2021&ndash;2023)</em></h3>
+  <ul>
+    <li>Serveren en bedienen van tafels, afwassen, meehelpen in de keuken.</li>
+  </ul>
+
+  <h3>Pluvera &mdash; Jobstudent <em>(Zomer 2020)</em></h3>
+  <ul>
+    <li>Vakantiewerk in de fabriek: verpakken, verdelen en verwerken.</li>
+  </ul>
+
+  <h3>ALDI &mdash; Kassa / Vakkenvuller <em>(2018&ndash;2019)</em></h3>
+  <ul>
+    <li>Klanten helpen aan de kassa, vakken bijvullen.</li>
+  </ul>
+
+  <hr>
+
+  <h2>Opleiding</h2>
+  <ul>
+    <li><strong>VUB</strong> &mdash; Master Computer Science <em>(2025&ndash;heden)</em></li>
+    <li><strong>AP Hogeschool</strong> &mdash; Bachelor Cloud &amp; Cybersecurity <em>(2022&ndash;2025)</em></li>
+    <li><strong>Thomas More (Geel)</strong> &mdash; Toegepaste Informatica <em>(2021&ndash;2022)</em></li>
+    <li><strong>Sint-Victor (Turnhout)</strong> &mdash; Informatica Beheer (TSO) <em>(2015&ndash;2021)</em></h3></li>
+  </ul>
+
+  <hr>
+
+  <h2>Vaardigheden</h2>
+  <p><strong>Programmeertalen:</strong> C, C++, C#, Java, JavaScript, Python, Rust, TypeScript</p>
+  <p><strong>Frameworks:</strong> Angular, Axum, Express, FastAPI, Flask, React</p>
+  <p><strong>Tools &amp; DevOps:</strong> Ansible, Docker, Git, GitHub, GitHub Actions, GitLab, Jenkins</p>
+  <p><strong>Hardware:</strong> ESP-32, Raspberry Pi</p>
+  <p><strong>Soft skills:</strong> Behulpzaam, doorzetter, kritisch denken, servicegericht, techneut</p>
+
+  <hr>
+
+  <h2>Talen</h2>
+  <p>Nederlands (moedertaal), Engels (vloeiend), Frans (basis)</p>
+</div>
+
+<script>
+var lang = 'en';
+function toggleLang() {
+  lang = lang === 'en' ? 'nl' : 'en';
+  document.getElementById('cv-en').style.display = lang === 'en' ? '' : 'none';
+  document.getElementById('cv-nl').style.display = lang === 'nl' ? '' : 'none';
+  document.getElementById('lang-toggle').textContent = lang === 'en' ? 'Nederlands' : 'English';
+  document.getElementById('print-btn').textContent = lang === 'en' ? 'Print' : 'Afdrukken';
+}
+</script>
+<script>
+(function(){
+  var u='dewaaljoey',d='gmail.com';
+  var els=document.querySelectorAll('.em');
+  els.forEach(function(el){
+    var a=document.createElement('a');
+    a.href='mailto:'+u+'@'+d;
+    a.textContent=u+'@'+d;
+    el.appendChild(a);
+  });
+})();
+</script>
+</body>
+</html>
